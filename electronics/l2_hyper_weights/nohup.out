@@ -1,0 +1,57 @@
+No handlers could be found for logger "pino"
+none in get resources
+[2021-02-02 20:19:35] INFO     Cmd:start UName:None current 9nctl version is --->1.5-543
+[2021-02-02 20:19:35] WARNING  Cmd:start UName:None bin not found in project dir
+[2021-02-02 20:19:35] WARNING  Cmd:start UName:None conf not found in project dir
+[2021-02-02 20:19:35] INFO     Cmd:start UName:None project=/data0/home/liuhu1/workspace/from_lvjing/1.gcn_last/debugs/7.1.multlast_softmax0.025 not a valid PinoAI directory or specify explicit_PinoAI,use default.
+[2021-02-02 20:19:35] INFO     Cmd:start UName:None Not specify runtime, will be use default[ads-search-ctr].
+[2021-02-02 20:19:35] INFO     Cmd:start UName:None Use runtime ads-search-ctr
+[2021-02-02 20:19:35] INFO     Cmd:start UName:None project "/data0/home/liuhu1/workspace/from_lvjing/1.gcn_last/debugs/7.1.multlast_softmax0.025" 9NAI:""
+[2021-02-02 20:19:35] DEBUG    Cmd:start UName:None use proxy 10.176.1.7
+[2021-02-02 20:19:35] DEBUG    Cmd:start UName:None use cluster jdcloud-dev-zyx
+[2021-02-02 20:19:35] INFO     Cmd:start UName:None resource ratio: None
+[2021-02-02 20:19:35] INFO     Cmd:start UName:None Do not found ratio ,use default 1
+[2021-02-02 20:19:35] INFO     Cmd:start UName:None resource low limit ratio: None
+[2021-02-02 20:19:35] INFO     Cmd:start UName:None Do not found ratio ,use default 0.1
+[2021-02-02 20:19:36] INFO     Cmd:start UName:None >>>> user cluster jdcloud-dev-zyx
+[2021-02-02 20:19:36] INFO     Cmd:start UName:None using "/data0/home/liuhu1/workspace/from_lvjing/1.gcn_last/debugs/7.1.multlast_softmax0.025"
+[2021-02-02 20:19:36] INFO     Cmd:start UName:e9f9cc48655011eb9b2a040973ced990 use image mirror.jd.com/pino/tf_train:cuda9.0-cudnn7_tf1120_python2_test
+[2021-02-02 20:19:36] INFO     Cmd:start UName:e9f9cc48655011eb9b2a040973ced990 如果您没有使用GPU，请确认您使用的是CPU版本的framework，否则任务会失败.
+[2021-02-02 20:19:36] INFO     Cmd:start UName:e9f9cc48655011eb9b2a040973ced990 allocUniName for /data0/home/liuhu1/workspace/from_lvjing/1.gcn_last/debugs/7.1.multlast_softmax0.025
+[2021-02-02 20:19:36] DEBUG    Cmd:start UName:e9f9cc48655011eb9b2a040973ced990 use node label search1,train
+[2021-02-02 20:19:36] INFO     Cmd:start UName:e9f9cc48655011eb9b2a040973ced990 create private dir
+[2021-02-02 20:19:36] INFO     Cmd:start UName:e9f9cc48655011eb9b2a040973ced990 create JSON file.
+[2021-02-02 20:20:06] INFO     Cmd:start UName:e9f9cc48655011eb9b2a040973ced990 begin to create pods
+[2021-02-02 20:20:06] WARNING  Cmd:start UName:e9f9cc48655011eb9b2a040973ced990 您配置的ps角色mem/cpu > 8:1，该角色过于依赖内存，并且会造成训练集群部分节点的资源浪费，请尽快安排时间优化，稍后我们可能会进行强制控制。
+[2021-02-02 20:20:06] WARNING  Cmd:start UName:e9f9cc48655011eb9b2a040973ced990 您配置的worker角色mem/cpu > 8:1，该角色过于依赖内存，并且会造成训练集群部分节点的资源浪费，请尽快安排时间优化，稍后我们可能会进行强制控制。
+[2021-02-02 20:20:06] DEBUG    Cmd:start UName:e9f9cc48655011eb9b2a040973ced990 waiting tfjob "tfjob-e9f9cc48655011eb9b2a040973ced990"......
+[2021-02-02 20:20:48] INFO     Cmd:start UName:e9f9cc48655011eb9b2a040973ced990 create pods ok
+[2021-02-02 20:20:48] DEBUG    Cmd:start UName:e9f9cc48655011eb9b2a040973ced990 copy: /data0/home/ads_search/.kube-pino/kube-pino/pinoctl/tfjob_prepare.sh
+[2021-02-02 20:21:13] INFO     Cmd:start UName:e9f9cc48655011eb9b2a040973ced990 prepare for start task
+[2021-02-02 20:21:18] INFO     Cmd:start UName:e9f9cc48655011eb9b2a040973ced990 update project resource stats
+[2021-02-02 20:21:18] INFO     Cmd:start UName:e9f9cc48655011eb9b2a040973ced990 create start script
+[2021-02-02 20:21:18] INFO     Cmd:start UName:e9f9cc48655011eb9b2a040973ced990 copy files to pod
+[2021-02-02 20:21:18] DEBUG    Cmd:start UName:e9f9cc48655011eb9b2a040973ced990 copy: all file
+Unable to use a TTY - input is not a terminal or the right kind of file
+E0202 20:22:10.755571   42877 v2.go:105] read /dev/stdin: bad file descriptor
+Unable to use a TTY - input is not a terminal or the right kind of file
+E0202 20:22:11.098078   42952 v2.go:105] read /dev/stdin: bad file descriptor
+Unable to use a TTY - input is not a terminal or the right kind of file
+E0202 20:22:11.458083   43026 v2.go:105] read /dev/stdin: bad file descriptor
+Unable to use a TTY - input is not a terminal or the right kind of file
+E0202 20:22:11.818403   43064 v2.go:105] read /dev/stdin: bad file descriptor
+Unable to use a TTY - input is not a terminal or the right kind of file
+E0202 20:22:12.238354   43098 v2.go:105] read /dev/stdin: bad file descriptor
+Unable to use a TTY - input is not a terminal or the right kind of file
+E0202 20:22:12.606542   43133 v2.go:105] read /dev/stdin: bad file descriptor
+Unable to use a TTY - input is not a terminal or the right kind of file
+E0202 20:22:13.018588   43170 v2.go:105] read /dev/stdin: bad file descriptor
+Unable to use a TTY - input is not a terminal or the right kind of file
+E0202 20:22:13.428965   43204 v2.go:105] read /dev/stdin: bad file descriptor
+Unable to use a TTY - input is not a terminal or the right kind of file
+E0202 20:22:13.994232   43265 v2.go:105] read /dev/stdin: bad file descriptor
+[2021-02-02 20:22:14] INFO     Cmd:start UName:e9f9cc48655011eb9b2a040973ced990 start tf job start_train
+[2021-02-02 20:22:16] INFO     Cmd:start UName:e9f9cc48655011eb9b2a040973ced990 start_tfjob 执行时间: 2134680 微秒.
+[2021-02-02 20:22:17] INFO     Cmd:start UName:e9f9cc48655011eb9b2a040973ced990 save pod ip
+[2021-02-02 20:22:17] INFO     Cmd:start UName:e9f9cc48655011eb9b2a040973ced990 start train command exit with Success
+[2021-02-02 20:22:18] INFO     Cmd:start UName:e9f9cc48655011eb9b2a040973ced990 training thread exit.
