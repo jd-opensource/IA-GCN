@@ -4,7 +4,7 @@
 This is our Tensorflow implementation for the paper "IA-GCN: Interactive Graph Convolutional Network for Recommendation".
 
 ## Introduction 
-we propose a novel graph attention model named Bilateral Interactive GCN (BI-GCN), which introduces bilateral interactive guidance into each user-item pair for preference prediction. By this manner, we can obtain target-aware representations, i.e., the information of the target item/user is explicitly encoded in the user/item representation, for more precise matching. 
+we propose a novel graph attention model named Interactive GCN (IA-GCN), which introduces bilateral interactive guidance into each user-item pair for preference prediction. By this manner, we can obtain target-aware representations, i.e., the information of the target item/user is explicitly encoded in the user/item representation, for more precise matching. 
 
 ## Requirements
 numpy (1.15.0)
