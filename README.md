@@ -1,4 +1,4 @@
-# IA-GCN: Interactive Graph Convolutional Network for Recommendation
+# BI-GCN: Bilateral Interactive Graph Convolutional Network for Recommendation
 
 ## Overview
 This is our Tensorflow implementation for the paper "IA-GCN: Interactive Graph Convolutional Network for Recommendation".
